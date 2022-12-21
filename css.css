@@ -1,0 +1,96 @@
+#sayfa{
+        
+    border-style: solid;
+    width: 1200px;
+    margin-top:auto;
+    margin-left: auto;
+    margin-right: auto;    
+    height: 900px;    
+    background-color:bisque;
+
+}
+header
+{
+    border-style: dotted;
+    border-color: aquamarine;
+    background-color: slateblue;
+    height: auto;
+    width: 130px;
+    margin-top:50px;
+    
+}
+nav{
+
+    border-style: double;
+    border-color: rebeccapurple;
+    background-color:yellowgreen;
+    width: 200px;
+    height: 100px;
+    
+   
+  
+
+}
+
+article {
+    border-style: dashed;
+    border-color: rgb(224, 26, 26);  
+    width: 550px;
+    height: 500px;
+   
+    margin: auto;
+   margin-left: 250px;
+    margin-top:-500px
+   
+
+}
+footer
+{
+    border-style: solid;
+    border-color: rgb(217, 214, 221);
+    background-color:rgb(rgb(151, 134, 134), rgba(134, 145, 134, 0.116), blue);
+    width: auto;
+    margin: auto;
+    height: 30px;
+    text-align: center;
+    margin-top:auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#anamenu{
+    width: 300px;
+    height: 600px;
+    border-style: dotted;
+    border-width: 10px;
+    background-color: yellow;
+    margin:10px;
+    margin-top:-150px;
+     top:auto;
+    margin-left: auto;
+    
+}
+#anamenu ul {
+    list-style-type:none;
+}
+#anamenu ul li {
+    width: 100px;
+    border-style:dashed;
+    border-width: 3px;
+    border-color: blue;
+    background-color: white;
+    padding: 5px;
+    margin-left: 4px;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    
+}
+#anamenu ul a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 15px;
+    width: 30px;
+}
+
