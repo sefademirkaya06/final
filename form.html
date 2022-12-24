@@ -1,58 +1,34 @@
-<!DOCTYPE html>
 <html>
 <head><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-
 <meta charset="utf-8">
 <title>SEFA DEMİRKAYA MESAJ GÖNDER</title>
-
+<style>
+    *{
+        background-size: auto;
+        background-position: 100%;
+    }
+    </style>
 </head>
 <body>
 <h1>MESAJ GÖNDERME FORMU</h1>
 <form name="mesaj" action="mesaj.aspx" method="get">
  <table border="10">
     <tr><td>AD SOYAD:</td><td><input type="text" name="adsoyad"></td></tr>
-    <tr><td>EMAİL:</td><td><input type="email" name="email" required></td></tr>
+    <tr><td>EMAİL:</td><td> <input type="email" class="form-control" id="floatingInputGrid" placeholder="sefa06@gmail.com" >
+        <label for="floatingInputGrid"></label></td></tr>
     <tr><td>DOĞUM TARİHİ:</td><td><input type="date" name="dogumtarihi"></td></tr>
     <tr><td>TELEFON NUMARASI:</td><td><input type="tel" name="telefon"></td></tr>
-     
     <tr><td>CİNSİYET:</td><td><input type="radio" name="cinsiyet" value="kadin"> KADIN <input type="radio" name="cinsiyet" value="erkek">ERKEK </td></tr>
     <tr><td>ŞEHİR:</td><td><select name="sehir" id="sehir"><option selected>ANKARA</option><option>İSTANBUL</option> <option>İZMİR</option><option>BURSA</option><option>ADANA</option><option>BURSA</option><option>KONYA</option>/select></td></tr>
-        <tr><td>MESAJINIZ:</td><td><input type="text" name="mesajiniz"></td></tr>
- 
+    <tr><td>MESAJINIZ:</td><td><input type="text" name="mesajiniz" placeholder="Mesajınızı bu alana giriniz"></td></tr>
+    <tr><td><label for="customRange1" class="form-label">SİTEYE GİRME SIKLIĞINIZ:</label>
+        <input type="range" class="form-range" id="customRange1"></td></tr>
 </table>
 <br> 
 <br>
 <input type="submit" value="GÖNDER">
 <input type="reset" value="İPTAL">
-
-
-
-
-
 </form>
 
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </html>

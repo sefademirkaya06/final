@@ -1,5 +1,4 @@
-#sayfa{
-        
+#sayfa{ 
     border-style: solid;
     width: 1200px;
     margin-top:auto;
@@ -7,7 +6,6 @@
     margin-right: auto;    
     height: 900px;    
     background-color:bisque;
-
 }
 header
 {
@@ -17,7 +15,6 @@ header
     height: auto;
     width: 130px;
     margin-top:50px;
-    
 }
 nav{
 
@@ -26,10 +23,6 @@ nav{
     background-color:yellowgreen;
     width: 200px;
     height: 100px;
-    
-   
-  
-
 }
 
 article {
@@ -41,8 +34,6 @@ article {
     margin: auto;
    margin-left: 250px;
     margin-top:-500px
-   
-
 }
 footer
 {
@@ -93,4 +84,3 @@ footer
     font-size: 15px;
     width: 30px;
 }
-
